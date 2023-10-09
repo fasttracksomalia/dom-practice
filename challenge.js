@@ -55,7 +55,18 @@ let i = 0;
 // write a function that take two number and multiplies them and returns the result then prints it
 
 
-function multiply (num1,num2){
-    return num1 * num2
-}
-console.log (multiply(4,5))
+// function multiply (num1,num2){
+//     return num1 * num2
+// }
+// console.log (multiply(4,5))
+
+
+
+// write a simple program that calculates your 
+// salary and tax if salary is 500 and tax is 20% 
+// what is the take home salary
+
+let salary = 500;
+let tax = .2;
+let takeHomeSalary = salary - (salary * tax);
+console.log('Your Take Home Salary Is ' + takeHomeSalary)   
